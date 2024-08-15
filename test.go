@@ -3,11 +3,12 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/ua-parser/uap-go/uaparser"
 	"os"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/sardine-ai/uap-go/uaparser"
 )
 
 func main() {
